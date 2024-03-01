@@ -20,6 +20,8 @@
     <script src="js/script.js" defer></script>
     <script src="https://smtpjs.com/v3/smtp.js" defer></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11" defer></script>
+    <script src="https://smtpjs.com/v3/smtp.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11" defer></script>
     <title>Xanzu. | Portfolio</title>
   </head>
   <body>
@@ -64,6 +66,15 @@
         </p>
 
         <div class="btn-box">
+          <a
+            href="https://xanzu-portofolio.vercel.app"
+            target="_blank"
+            class="btn"
+            >Hire me</a
+          >
+          <a href="https://wa.me/6281368449213" target="_blank" class="btn"
+            >Let's Talk</a
+          >
           <a
             href="https://xanzu-portofolio.vercel.app"
             target="_blank"
@@ -328,9 +339,16 @@
         <div class="input-box">
           <div class="input-field">
             <input type="text" placeholder="Full Name" id="name" required />
+            <input type="text" placeholder="Full Name" id="name" required />
             <span class="focus"></span>
           </div>
           <div class="input-field">
+            <input
+              type="email"
+              placeholder="Email Address"
+              id="email"
+              required
+            />
             <input
               type="email"
               placeholder="Email Address"
@@ -355,6 +373,12 @@
               id="subject"
               required
             />
+            <input
+              type="text"
+              placeholder="Email Subject"
+              id="subject"
+              required
+            />
             <span class="focus"></span>
           </div>
 
@@ -364,6 +388,7 @@
         <div class="textarea-field">
           <textarea
             name=""
+            id="message"
             id="message"
             cols="30"
             rows="10"
